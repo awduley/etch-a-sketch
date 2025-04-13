@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.square {
+  border: 1px solid #000;
+  width: 6.25%;
+  height: auto;
+}
